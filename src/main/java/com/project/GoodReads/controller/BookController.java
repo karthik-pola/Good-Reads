@@ -1,7 +1,9 @@
-package com.project.GoodReads;
+package com.project.GoodReads.controller;
 
+import com.project.GoodReads.service.BookService;
+import com.project.GoodReads.model.Book;
 import org.springframework.web.bind.annotation.*;
-import com.project.GoodReads.BookService;
+
 import java.util.*;
 
 @RestController

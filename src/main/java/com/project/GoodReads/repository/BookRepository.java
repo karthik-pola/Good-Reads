@@ -1,4 +1,6 @@
-package com.project.GoodReads;
+package com.project.GoodReads.repository;
+import com.project.GoodReads.model.Book;
+
 import java.util.*;
 
 public interface BookRepository{

@@ -1,12 +1,13 @@
-package com.project.GoodReads;
+package com.project.GoodReads.service;
 
 import java.util.*;
-import com.project.GoodReads.BookRepository;
-import com.project.GoodReads.Book;
+
+import com.project.GoodReads.model.Book;
+import com.project.GoodReads.repository.BookRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
-public class BookService implements BookRepository{
+public class BookService implements BookRepository {
     private HashMap<Integer , Book> hmap = new HashMap<>();
     int uniqueBookId = 3;
     public BookService(){

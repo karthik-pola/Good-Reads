@@ -1,4 +1,4 @@
-package com.project.GoodReads;
+package com.project.GoodReads.model;
 
 
 public class Book{
